@@ -119,7 +119,6 @@ exclude:
   - vendor
   - scripts
   - remotedata
-  - Gemfile
   - Gemfile.lock
   - README
   - README.md
