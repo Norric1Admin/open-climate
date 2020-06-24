@@ -3,7 +3,7 @@
 # Tell the Remote Theme plugin to use the Open SDG platform (Jekyll theme).
 # Recommended: set this to a particular "release" of Open SDG. For example:
 #remote_theme: Norric1Admin/open-climate@0.10.0
-remote_theme: Norric1Admin/open-climate-site@develop
+remote_theme: Norric1Admin/open-climate@master
 
 # Replace this title as needed.
 title: Indicators For Environmental Statistics (TEST SITE)
