@@ -51,7 +51,7 @@ country:
 
 # Optionally uncomment and update the settings below to control the frontpage heading and instructions.
 frontpage_heading: Indicators For Environmental Statistics (TEST SITE)
-frontpage_instructions: Click on each goal, or <span id="jump-to-search"><a>search</a></span>, for environmental statistics indicators.
+frontpage_instructions: Click on each goal, or <span id="jump-to-search"><a>search</a></span>, for environmental statistics metrics.
 
 # Optionally set a title/body for the frontpage banner. The defaults below point to a standard
 # translation, but feel free to change it as needed.
@@ -107,8 +107,8 @@ languages:
 
 # Set a base for all goal image URLs. Note that the full goal image path will be
 # the base below, completed with: /[language]/[number].png (eg, /fr/6.png).
-goal_image_base: https://Norric1Admin.github.io/open-climate-translations/assets/img/goals
-
+goal_image_base: https://norric1admin.github.io/open-climate-translations/assets/img/goals
+goal_image_base: https://norric1admin.github.io/open-climate-translations/assets/img/goals/en/1.png
 # Tell Jekyll to use the Remote Theme plugin.
 plugins:
   - jekyll-remote-theme
@@ -117,7 +117,6 @@ plugins:
 # Exclude some files/folders.
 exclude:
   - vendor
-  - scripts
   - remotedata
   - Gemfile.lock
   - README
