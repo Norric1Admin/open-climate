@@ -122,6 +122,9 @@ exclude:
   - README
   - README.md
   - LICENSE
+  
+# Exclude empty metadata fields
+hide_empty_metadata: true
 
 # Optionally uncomment and update the settings below to control the mapping functionality.
 # These are only a few of the possible settings. For more details, see:
