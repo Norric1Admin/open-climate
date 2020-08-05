@@ -9,14 +9,14 @@ title: Indicators For Environmental Statistics (TEST SITE)
 # Replace the baseurl with the name of this repository. For example, if the repository is named
 # "my-site-repository", then update the baseurl like so:
 # baseurl: "/my-site-repository"
-baseurl: "/open-climate-site"
+baseurl: /open-climate-site
 url: ""
 data_dir: data
 environment: staging
 
 # In the next few items, replace "open-sdg" with the name of your GitHub
 # organization, and "open-sdg-data-starter" with the name of your data repository.
-remote_data_prefix: "https://norric1admin.github.io/open-climate-data"
+remote_data_prefix: https://norric1admin.github.io/open-climate-data
 # URL for the "Edit Data" button on indicators.
 data_edit_url: http://prose.io/#norric1admin/open-climate-data/edit/develop/data/indicator_[id].csv
 # URL for the "Edit Metadata" button on indicators.
@@ -121,9 +121,6 @@ exclude:
   - README
   - README.md
   - LICENSE
-  
-# Exclude empty metadata fields
-hide_empty_metadata: true
 
 # Optionally uncomment and update the settings below to control the mapping functionality.
 # These are only a few of the possible settings. For more details, see:
